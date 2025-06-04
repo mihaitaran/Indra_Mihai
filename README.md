@@ -11,12 +11,12 @@ Contiene la [documentación](./doc/SO_y_XAMPP.pdf) sobre la instalación y confi
 ![Image](https://github.com/user-attachments/assets/31bb91fc-6244-4527-8913-7cf7edcdcf12)
 
 ### [📁 /html](./html)
-Incluye todos los archivos necesarios para la parte web: HTML, CSS, JavaScript y los recursos gráficos utilizados (imágenes de los eventos).
+Incluye todos los archivos necesarios para la parte web: HTML, [CSS](./html/css), [JavaScript](./html/js) y los [recursos gráficos](./html/images) utilizados (imágenes de los eventos).
 
 ![Image](portal_eventos_sostenibles.jpg)
 
 ### [📁 /sql](./sql)
-Se almacena el diagrama entidad-relación creado en draw.io, un documento PDF detallando el modelo y las tablas resultantes, junto con el script SQL para su creación en la base de datos.
+Se almacena el diagrama entidad-relación creado en draw.io, un [documento PDF](./sql/TablasEventosSostenibles.pdf) detallando el modelo y las tablas resultantes, junto con el [script SQL](./sql/eventos_sostenibles_script.sql) para su creación en la base de datos.
 
 ![Image](sql/EventosSostenibles_DiagramaEntidadRelacion.png)
 
