@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoPortal - Eventos Sostenibles</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <script defer src="js/index.js"></script>
+</head>
+<body>
+
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">EcoPortal</div>
+      <div class="nav-buttons">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="eventos.html" class="nav-link">Eventos</a>
+        <a href="#" class="nav-link">Mis Eventos</a>
+        <a href="#" class="nav-link">Iniciar Sesión</a>
+        <a href="#" class="nav-link">Registrarse</a>
+      </div>
+    </nav>
+    <div class="header-content">
+      <h1>Bienvenidos al Portal de Eventos Sostenibles</h1>
+      <p>Conectando personas con el cambio ecológico</p>
+    </div>
+  </header>
+
+  <section class="company-description">
+    <h2>Sobre EcoPortal</h2>
+    <p>
+      EcoPortal es una empresa dedicada a la gestión y organización de eventos sostenibles, 
+      comprometida con el medio ambiente y la promoción de un estilo de vida ecológico. 
+      Nuestro objetivo es conectar personas con iniciativas que impulsen un cambio positivo para el planeta.
+    </p>
+  </section>
+
+  <section class="carousel-section">
+    <h2>Eventos Destacados</h2>
+
+    <div class="carrusel-container">
+      <div class="carrusel" id="carrusel">
+
+        <div class="slide">
+          <a href="detalle_evento1.html">
+            <img src="images/evento1.jpg" alt="Conferencia sobre Energías Renovables" />
+            <div class="texto-evento">
+              <h3>Conferencia sobre Energías Renovables</h3>
+              <p>Fecha: 25 de junio 2025</p>
+              <p>Conoce más sobre energías renovables y sostenibles.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="slide">
+          <a href="detalle_evento3.html">
+            <img src="images/evento3.jpg" alt="Taller de Compostaje" />
+            <div class="texto-evento">
+              <h3>Taller de Compostaje</h3>
+              <p>Fecha: 30 de junio 2025</p>
+              <p>Aprende a convertir residuos orgánicos en abono natural.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="slide">
+          <a href="detalle_evento5.html">
+            <img src="images/evento5.jpg" alt="Actividad de Limpieza de Playa" />
+            <div class="texto-evento">
+              <h3>Actividad de Limpieza de Playa</h3>
+              <p>Fecha: 10 de julio 2025</p>
+              <p>Únete a la comunidad para proteger nuestras costas.</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+      <div class="botones">
+        <button onclick="moverCarrusel(-1)">&#10094;</button>
+        <button onclick="moverCarrusel(1)">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoPortal - All rights reserved</p>
+    <div class="contact-info">
+      <p><strong>Contact Us:</strong></p>
+      <p>Email: contacto@ecoportal.com</p>
+      <p>Telephone: +34 123 456 789</p>
+      <p>Instagram: @ecoportal</p>
+    </div>
+  </footer>
+
+</body>
+</html>
