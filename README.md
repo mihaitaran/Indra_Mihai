@@ -6,7 +6,7 @@ En él se incluyen tanto la descripción del proyecto como evidencias visuales d
 Cada carpeta representa una parte específica del trabajo realizado para completar el proyecto de manera estructurada:
 
 ### [📁 /doc](./doc)
-Contiene la [documentación](./doc/SO%20y%20XAMPP.pdf) sobre la instalación y configuración de Windows 10 en VirtualBox, así como la puesta en marcha de un servidor web local con XAMPP desde cero.
+Contiene la [documentación](./doc/SO_y_XAMPP.pdf) sobre la instalación y configuración de Windows 10 en VirtualBox, así como la puesta en marcha de un servidor web local con XAMPP desde cero.
 
 ### [📁 /html](./html)
 Incluye todos los archivos necesarios para la parte web: HTML, CSS, JavaScript y los recursos gráficos utilizados (imágenes de los eventos).
