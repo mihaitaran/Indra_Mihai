@@ -5,14 +5,14 @@ En él se incluyen tanto la descripción del proyecto como evidencias visuales d
 
 Cada carpeta representa una parte específica del trabajo realizado para completar el proyecto de manera estructurada:
 
-### /doc
+### [📁 /doc](./doc)
 Contiene la documentación sobre la instalación y configuración de Windows 10 en VirtualBox, así como la puesta en marcha de un servidor web local con XAMPP desde cero.
 
-### /html
+### [📁 /html](./html)
 Incluye todos los archivos necesarios para la parte web: HTML, CSS, JavaScript y los recursos gráficos utilizados (imágenes de los eventos).
 
-### /sql
+### [📁 /sql](./sql)
 Se almacena el diagrama entidad-relación creado en draw.io, un documento PDF detallando el modelo y las tablas resultantes, junto con el script SQL para su creación en la base de datos.
 
-### /src
+### [📁 /src](./src)
 Contiene el código fuente en Java, incluyendo la implementación de las clases que conforman el proyecto. También se incluyen dos clases de prueba realizadas y validadas con el software Autopilot.
