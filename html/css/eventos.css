@@ -1,0 +1,143 @@
+.header-content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.main-header {
+  background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a5d6a7;
+}
+
+.nav-buttons .nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #81c784;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  color: #c8e6c9;
+}
+
+.company-description {
+  max-width: 1000px;
+  margin: 60px auto 40px;
+  padding: 30px;
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.company-description h2 {
+  text-align: center;
+  color: #81c784;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.tabla-eventos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: #e0e0e0;
+}
+
+.tabla-eventos th, .tabla-eventos td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #444;
+  text-align: left;
+}
+
+.tabla-eventos th {
+  background-color: #388e3c;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.tabla-eventos tr:nth-child(even) {
+  background-color: #333;
+}
+
+.tabla-eventos tr:hover {
+  background-color: #3a3a3a;
+}
+
+.tabla-eventos td:first-child {
+  color: #a5d6a7;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #222;
+  color: #a5d6a7;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+footer .contact-info p {
+  margin: 5px 0;
+}
+
+.filtro-eventos {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #c8e6c9;
+}
+
+.filtro-eventos select {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #4caf50;
+  background-color: #1e1e1e;
+  color: #a5d6a7;
+  font-size: 1rem;
+}
+
+a {
+  color: #81c784;
+  text-decoration: none;
+}

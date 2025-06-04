@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoPortal - Listado de Eventos</title>
+  <link rel="stylesheet" href="css/eventos.css" />
+</head>
+<body>
+
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">EcoPortal</div>
+      <div class="nav-buttons">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="eventos.html" class="nav-link">Eventos</a>
+        <a href="#" class="nav-link">Mis Eventos</a>
+        <a href="#" class="nav-link">Iniciar Sesión</a>
+        <a href="#" class="nav-link">Registrarse</a>
+      </div>
+    </nav>
+    <div class="header-content">
+      <h1>Listado de Eventos</h1>
+      <p>Explora nuestras actividades sostenibles organizadas por tipo</p>
+    </div>
+  </header>
+
+  <section class="company-description">
+    <h2>Eventos Programados</h2>
+
+
+    <div class="filtro-eventos">
+      <label for="filtroTipo">Filtrar por tipo:</label>
+      <select id="filtroTipo" onchange="filtrarEventos()">
+        <option value="todos">Todos</option>
+        <option value="Conferencia">Conferencia</option>
+        <option value="Taller">Taller</option>
+        <option value="Actividad">Actividad</option>
+      </select>
+    </div>
+
+
+    <table class="tabla-eventos">
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Nombre</th>
+          <th>Fecha</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Conferencia</td>
+          <td><a href="detalle_evento1.html" class="evento-link">Conferencia sobre Energías Renovables</a></td>
+          <td>25 de junio 2025</td>
+          <td>Conoce más sobre energías renovables y sostenibles.</td>
+        </tr>
+        <tr>
+          <td>Conferencia</td>
+          <td><a href="detalle_evento2.html" class="evento-link">Conferencia: Innovación y Clima</a></td>
+          <td>5 de julio 2025</td>
+          <td>Descubre tecnologías emergentes para combatir el cambio climático.</td>
+        </tr>
+        <tr>
+          <td>Taller</td>
+          <td><a href="detalle_evento3.html" class="evento-link">Taller de Compostaje</a></td>
+          <td>30 de junio 2025</td>
+          <td>Aprende a convertir residuos orgánicos en abono natural.</td>
+        </tr>
+        <tr>
+          <td>Taller</td>
+          <td><a href="detalle_evento4.html" class="evento-link">Taller de Huertos Urbanos</a></td>
+          <td>12 de julio 2025</td>
+          <td>Iníciate en el cultivo ecológico desde tu hogar.</td>
+        </tr>
+        <tr>
+          <td>Actividad</td>
+          <td><a href="detalle_evento5.html" class="evento-link">Actividad de Limpieza de Playa</a></td>
+          <td>10 de julio 2025</td>
+          <td>Únete a la comunidad para proteger nuestras costas.</td>
+        </tr>
+        <tr>
+          <td>Actividad</td>
+          <td><a href="detalle_evento6.html" class="evento-link">Jornada de Reforestación</a></td>
+          <td>20 de julio 2025</td>
+          <td>Participa plantando árboles en zonas degradadas.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoPortal - All rights reserved</p>
+    <div class="contact-info">
+      <p><strong>Contact Us:</strong></p>
+      <p>Email: contacto@ecoportal.com</p>
+      <p>Telephone: +34 123 456 789</p>
+      <p>Instagram: @ecoportal</p>
+    </div>
+  </footer>
+
+  <script>
+    function filtrarEventos() {
+      const tipoSeleccionado = document.getElementById("filtroTipo").value;
+      const filas = document.querySelectorAll(".tabla-eventos tbody tr");
+
+      filas.forEach(fila => {
+        const tipo = fila.cells[0].textContent.trim();
+        fila.style.display = (tipoSeleccionado === "todos" || tipo === tipoSeleccionado) ? "" : "none";
+      });
+    }
+  </script>
+
+</body>
+</html>
